@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Listagem de Produtos</title>
+</head>
+<body>
+
+    <h1>Cadastro de Produto</h1>
+
+    <form id="productForm">
+        <div>
+            <div>
+                <label>Nome do Produto:</label>
+                <input type="text" id="productName" name="productName">
+            </div>
+            <div>
+                <label>Descrição do Produto:</label>
+                <input type="text" id="descriptionProduct" name="descriptionProduct">
+            </div>
+            <div>
+                <label>Valor do Produto:</label>
+                <input type="number" id="productValue" name="productValue">
+            </div>
+            <div>
+                <label>Disponível para Venda:</label>
+                <input type="radio" name="type" value="Sim" id="availableForSale" checked>
+                <label for="availableForSale">Sim</label>
+                <input type="radio" name="type" value="Não" id="notAvailableForSale">
+                <label for="notAvailableForSale">Não</label>
+            </div>
+            <div>
+                <button type="button" class="solid" id="register">Cadastrar</button>
+                <button type="button" class="clear" id="cancel">Cancelar</button>
+            </div>
+        </div>
+    </form>
+    
+
+    <h2>Listagem de Produtos</h2>
+
+    <table id="productList" border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <button type="button" id="addNewProduct" style="display: none">Cadastrar Novo Produto</button>
+        </tbody>
+    </table>
+    <footer class="footer">
+        <p>by Leonardo Peron Krause | <a href="https://github.com/LeonardoPeronKrause">GitHub</a> | <a href="https://www.linkedin.com/in/leonardo-peron-krause/">Linkedin</a></p>
+    </footer>
+</body>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+</html>

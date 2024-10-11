@@ -1,0 +1,124 @@
+body {
+    background: rgb(100, 100, 190);
+    padding-bottom: 50px;
+}
+
+h1, h2 {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input[type='radio'] {
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: calc(50% - 22px);
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.clear {
+    background: transparent;
+    color: white;
+}
+.solid {
+    background: white;
+    color: rgb(100, 100, 190);
+}
+
+#productList {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#productList th {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+#productList td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+#productList tr:hover {
+    background-color: #f1f1f1;
+}
+
+#addNewProduct {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#addNewProduct:hover {
+    background: #45a049;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 100, 190);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 3px 0;
+}
