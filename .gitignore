@@ -1,4 +1,6 @@
-serviceAccountKey.json
+front/firebase-init.js
+
+back/serviceAccountKey.json
 
 # Logs
 logs
