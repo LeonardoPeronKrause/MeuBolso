@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "",
+    apiKey: "AIzaSyBv_3gLDgt387g6QdAzl4nX-bIVzkAagM4",
     authDomain: "meubolso-bf848.firebaseapp.com",
     projectId: "meubolso-bf848",
     storageBucket: "meubolso-bf848.appspot.com",
